@@ -14,6 +14,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Kör_Teszt", "Kör_Teszt\K�
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "AtvaltOOP", "AtvaltOOP\AtvaltOOP.csproj", "{97082C92-4A0E-48DE-8AD9-6C71FE255551}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "AtvaltOOP_unit test", "AtvaltOOP_unit test\AtvaltOOP_unit test.csproj", "{FBAEAC60-455A-43BE-B6D6-B713F3E8B32B}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -32,6 +34,10 @@ Global
 		{97082C92-4A0E-48DE-8AD9-6C71FE255551}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{97082C92-4A0E-48DE-8AD9-6C71FE255551}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{97082C92-4A0E-48DE-8AD9-6C71FE255551}.Release|Any CPU.Build.0 = Release|Any CPU
+		{FBAEAC60-455A-43BE-B6D6-B713F3E8B32B}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{FBAEAC60-455A-43BE-B6D6-B713F3E8B32B}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{FBAEAC60-455A-43BE-B6D6-B713F3E8B32B}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{FBAEAC60-455A-43BE-B6D6-B713F3E8B32B}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

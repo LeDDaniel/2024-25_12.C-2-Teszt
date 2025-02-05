@@ -6,7 +6,7 @@ using System.Threading.Tasks;
 
 namespace AtvaltOOP
 {
-    internal class Atvalt
+    public class Atvalt
     {
         // Osztályváltozók 
         string eredmeny= string.Empty; // Az eredmeényt ebbe képezzük
@@ -20,14 +20,14 @@ namespace AtvaltOOP
             else if (isDecimal(szam)) decimalToBinaris(szam);
             else throw new FormatException("A megadott adat nem szám!");
         }
-        private void decimalToBinaris(string szam) { 
+        public void decimalToBinaris(string szam) { 
             while (decSzam>0)
             {
                 eredmeny = decSzam % 2 + eredmeny;
                 decSzam/= 2;
             }
         }
-        private bool isDecimal(string szam) { 
+        public bool isDecimal(string szam) { 
             bool eredm = true;
             try
             {
@@ -38,7 +38,7 @@ namespace AtvaltOOP
             }
             return eredm;
         }
-        private void binarisToDecimals(string szam)
+        public void binarisToDecimals(string szam)
         {
             int j = 1;
             for (int i = szam.Length - 1; i > 0; i--)
@@ -47,7 +47,7 @@ namespace AtvaltOOP
                 j *= 2;
             }
         }
-        private bool IsBinaris(string szam)
+        public bool IsBinaris(string szam)
         {
             bool eredm = true;
             if (szam[0]=='0')
