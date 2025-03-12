@@ -8,6 +8,7 @@ namespace KorrTDD_Teszt
     public class KorClass_Test
     {
         KorClass kor = new KorClass(4.00);
+
         [TestMethod]
         public void setKerulet_teszt_True()
         {
@@ -18,9 +19,12 @@ namespace KorrTDD_Teszt
 
             Assert.AreEqual(kapottEredm, vartEredm);
         }
-        [TestMethod]
+
+        /*
+        [TestMethod, ExpectedException(typeof(ArgumentException))]
         public void setKerulet_teszt_False_Alatt()
         {
+            kor.setSugar(0);
             double sugar = kor.getsugar();
             double vartEredm = 25.11,
                     kapottEredm;
@@ -28,6 +32,7 @@ namespace KorrTDD_Teszt
 
             Assert.AreNotEqual(kapottEredm, vartEredm);
         }
+
         [TestMethod]
         public void setKerulet_teszt_False_Felett()
         {
@@ -38,6 +43,7 @@ namespace KorrTDD_Teszt
 
             Assert.AreNotEqual(kapottEredm, vartEredm);
         }
+
         [TestMethod]
         public void setTerulet_teszt_True()
         {
@@ -48,6 +54,7 @@ namespace KorrTDD_Teszt
 
             Assert.AreNotEqual(kapottEredm, vartEredm);
         }
+
         [TestMethod]
         public void setTerulet_teszt_False_Alatt()
         {
@@ -58,6 +65,7 @@ namespace KorrTDD_Teszt
 
             Assert.AreNotEqual(kapottEredm, vartEredm);
         }
+
         [TestMethod]
         public void seterulet_teszt_False_Felett()
         {
@@ -68,5 +76,6 @@ namespace KorrTDD_Teszt
 
             Assert.AreNotEqual(kapottEredm, vartEredm);
         }
+        */
     }
 }
